@@ -124,6 +124,7 @@ html, body {
         flex-direction: column;
         height: auto;
         padding: 20px 0;
+        position: static;
     }
     .nav-left, .nav-right {
         width: 100%;
@@ -135,36 +136,45 @@ html, body {
         flex-wrap: wrap;
     }
     .nav-right h1 {
+        font-size: 10px;
         margin: 10px 0;
     }
     .content {
         height: auto;
+        padding-top: 0;
     }
 
     .content-left h3 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .content-left h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .content-left h1 span {
         font-size: 30px;
     }
 
-    .content-left, .content-right {
+    .content-left {
+    
+        margin-top: 0;
         width: 100%;
-        margin: 20px 0;
         align-items: center;
         text-align: center;
     }
     .content-left {
-        margin-left: 0;
+        margin-left: -10px;
     }
+
+    .content-right {
+        display: none;
+    }
+
     .content-right img {
         height: auto;
         max-width: 40%;
         margin-top: 20px;
+        display: none;
     }
 }
