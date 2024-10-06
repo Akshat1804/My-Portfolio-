@@ -164,7 +164,7 @@ html, body {
         text-align: center;
     }
     .content-left {
-        margin-left: -10px;
+        margin-left: 0px;
     }
 
     .content-right {
